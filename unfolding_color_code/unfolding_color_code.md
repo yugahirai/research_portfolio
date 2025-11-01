@@ -92,7 +92,6 @@ data-reference="figure9">9</a>に示す通り、Color
 Codeからいっぺんに変換、拡大の操作を行っても、Fig.<a href="#figure8" data-reference-type="ref"
 data-reference="figure8">8</a>の下段と同じ状態が得られることがわかる。
 
-<img id="figure10" src="figure/figure10.png" width="300px">
 
 Update rules from \[1\]
 
