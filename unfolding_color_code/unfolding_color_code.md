@@ -12,6 +12,7 @@ data-reference="figure1">1</a>のような符号距離5のColor
 Codeについて考える。  
 
 <img id="figure1" src="figure/figure1.png" width="300px">
+<figcaption>Fig. 1</figcaption>
 
 
 最初にColor CodeのX logical operatorをgreen boundaryに沿う5-weight
@@ -25,6 +26,7 @@ data-reference="figure2">2</a>のように折り目のboudary側に0初期化さ
 Codeの量子ビット数nから符号距離dを引いた$`n-d`$個だけ用意する。
 
 <img id="figure2" src="figure/figure2.png" width="300px">
+<figcaption>Fig. 2</figcaption>
 
 ここでスタビライザー群を$`\mathcal{S}`$と表す。Fig.<a href="#figure3" data-reference-type="ref"
 data-reference="figure3">3</a>のようにgreenのedgeにX edge
@@ -38,6 +40,7 @@ stabilizerのシンドローム測定を、追加した量子ビットの領域�
 data-reference="figure3">3</a>のようになる。
 
 <img id="figure3" src="figure/figure3.png" width="300px">
+<figcaption>Fig. 3</figcaption>
 
 ということで変換後のスタビライザー$`\mathcal{S}`$はSurface
 Codeに対応するものとなっており、Fig.<a href="#figure4" data-reference-type="ref"
@@ -48,6 +51,8 @@ code的に実装するのではなく、surface
 codeのように実際のweight分のシンドローム測定を行う。
 
 <img id="figure4" src="figure/figure4.png" width="300px">
+<figcaption>Fig. 4</figcaption>
+
 
 ここで、最初に定義したlogical
 operatorは追加したすべてのスタビライザーと可換であるため論理情報は保存される(\[1\]を参照)。
@@ -59,6 +64,7 @@ Codeにできたのであとは拡大するだけである。拡大はFowlerとG
 data-reference="figure5">5</a>)。
 
 <img id="figure5" src="figure/figure5.png" width="600px">
+<figcaption>Fig. 5</figcaption>
 
 またここまでの操作はいっぺんにやってしまえば良いので、Fig.<a href="#figure6" data-reference-type="ref"
 data-reference="figure6">6</a>のように、拡大先のSurface
@@ -66,6 +72,7 @@ Codeの量子ビットをすべて用意しておいて、その後全体でSurf
 Codeのシンドローム測定をすることによって、escape stageが完成すると思う。
 
 <img id="figure6" src="figure/figure6.png" width="600px">
+<figcaption>Fig. 6</figcaption>
 
 ## 検証
 
@@ -78,6 +85,7 @@ OperatorとStabilizerが同じであることがわかる。よって、Color
 CodeからSurface Codeへの変換は所望の操作になっている。
 
 <img id="figure7" src="figure/figure7.png" width="600px">
+<figcaption>Fig. 7</figcaption>
 
 また、拡大操作を検証すると、Fig.<a href="#figure8" data-reference-type="ref"
 data-reference="figure8">8</a>のようになる。Fig.<a href="#figure8" data-reference-type="ref"
@@ -86,6 +94,7 @@ data-reference="figure7">7</a>の最終状態から、拡大する操作を表�
 Codeにエンコードする操作を表す。上段と下段の最終状態は等しいので、拡大操作は所望の操作になっている。
 
 <img id="figure8" src="figure/figure8.png" width="600px">
+<figcaption>Fig. 8</figcaption>
 
 最後にこれらの操作がいっぺんにできるかを検証する。Fig.<a href="#figure9" data-reference-type="ref"
 data-reference="figure9">9</a>に示す通り、Color
